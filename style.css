@@ -1,102 +1,630 @@
-.nav-div{
+.nav-div {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 20px;
 }
-.btn-div{
+
+a {
+    margin-left: 15px;
+}
+a:active{
+    background-color: gray;
+}
+
+nav img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Download-button {
+    background-color: black;
+    color: white;
+}
+
+.btn-div {
     margin-left: 60%;
 }
 
-.contant-div{
-  height: 40%;
-  width: 400px;
-  margin-left: 30px;
-  background-color: wheat;
+aside button {
+    border-radius: 5px;
 }
-.apple-logo{
+
+.page-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+.contant-div {
+    height: 40%;
+    max-width: 400px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.apple-logo {
     height: 40px;
     width: 80px;
 }
-.vdo-img{
+
+
+.vdo-img {
     height: 20px;
     width: 20px;
 }
 
- .div1{
+.div1 {
     height: 100px;
     width: 200px;
-    
- }
-.main-div{
+
+}
+.phone-2{
+    margin-top: 25%;
+    border-radius: 20px;
+
+}
+.main-div {
     height: 50px;
     width: 350px;
 }
-
-.photo-img-1{
- margin-left: 40%;
+.phone2-img{
+    height: 200px;
+    width: 100px;
 }
-.text-div{
+
+.div-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin: auto;
+
+}
+
+.circle {
+    height: 240px;
+    width: 240px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.Features {
+    margin-top: 12%;
+
+}
+
+.p-div {
+    max-width: 500px;
+}
+
+.text-div {
     height: auto;
-    width: 250px;
+    max-width: 250px;
     gap: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    text-align: start;
+    box-shadow: 0px 2px 3px;
     margin: auto;
 }
-.small-div{
+
+.small-div {
     display: flex;
     column-gap: 10px;
     row-gap: 10px;
-}
-.text{
-    margin-left: 5px;
-}
-footer{
-    background-color: black;
-    height: auto;
-    width: 100%;
-    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
-.footer-div{
- height: 220px;
- width: 220px;
- border: 1px solid white;
- color: white;
- border-radius: 50%;
- display: block;
- margin: auto;
+.text {
+    margin-left: 5px;
 }
-.footer-div h3{
-    margin-left: 40px;
-    margin-top: 35px;
+
+.page-3 {
+    text-align: center;
+    /* max-width: 50%; */
 }
-.footer-text{
-  margin-left: 25px; 
+
+.Reviews {
+    width: 80%;
+    margin: auto;
 }
-.logo-img{
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+    /* height: auto; */
+    width: 80%;
+    margin: auto;
+}
+
+.footer1-div {
+    height: 260px;
+    max-width: 260px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.footer1-div h3{
+    margin-top: 22%;
+    margin-left: 25px;
+}
+
+.footer-text {
+    margin-left: 10%;
+  
+}
+
+.logo-img {
     height: 30px;
     width: 80px;
     border-radius: 10px;
-    margin-left: 70px;
+    margin-left: 34%;
 }
-.page-4{
-    width: 250px;
+
+.first-div {
+    margin-top: 10%;
+}
+
+.page4 {
+    text-align: center;
+}
+
+.page-4 {
+    max-width: 200px;
     height: auto;
-    max-height: 150px;
     box-shadow: 2px 3px 4px;
     border-radius: 10px;
-    
+
 }
-.page4-div{
+
+.page4-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.second-div {
+    margin-top: 70px;
+}
+
+.page-4 p {
+    margin-left: 10px;
+}
+
+.tick-img {
+    height: 20px;
+    width: 20px;
+}
+
+.page-five {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.second-div{
-    margin-top: 70px;
+
+.page5-1 {
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 50%;
 }
-.page-4 p{
+
+.page5-2 {
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 55%;
+}
+
+.page5-3 {
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 80%;
+    background-color: #000;
+    color: #fff;
+}
+
+.Pricing-1 {
     margin-left: 10px;
 }
+
+.Pricing-3 {
+    margin-left: 10px;
+}
+
+.Pricing-div {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.monthly{
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+}
+.lorem {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.lorem h5 {
+    margin: 2px;
+}
+
+.Pricing {
+    margin-top: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.page5-button {
+    display: inline-block;
+    padding: 10px 85px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+    color: #000;
+}
+
+.page5-button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.button2 {
+    width: 50%;
+}
+
+.subscribe-button {
+    background-color: skyblue;
+    color: white;
+    display: inline-block;
+    padding: 10px 85px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+    color: #000;
+}
+
+.subscribe-button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(2px)
+}
+
+.lorem div {
+    max-width: 250px;
+}
+
+.lorem-div {
+    max-width: 80%;
+    margin: auto;
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.logo-div {
+    display: flex;
+}
+
+.logo-div h5 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.img-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.page-7 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    max-width: 250px;
+}
+
+.last-div div {
+    margin-top: -30px;
+}
+
+.QR {
+    height: 70px;
+    width: 70px;
+}
+
+.QR-Text {
+    margin-left: 10px;
+}
+
+input{
+    max-width: 100px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.last-text{
+    margin-top: -30px;
+    width: 50%;
+    margin-left: 60px;
+}
+
+@media screen and (min-width: 375px) {
+    .contant-div {
+        height: 30%;
+        /* max-width: 200px;
+        margin-left: 30px; */
+    }
+    .nav-div {
+        display: flex;
+    }
+    .apple-logo {
+        height: 30px;
+        width: 60px;
+    }
+
+    /* .vdo-button {
+        max-width: 150px;
+        border-radius: 5px;
+    } */
+
+     .features-img {
+        max-width: 200px;
+
+    } 
+
+    .page-five {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .page5-1 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-2 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+      }
+
+    .page5-3 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .page5-button {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .page5-button:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px);
+    }
+
+    .click-btn {
+        background-color: skyblue;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .click-btn:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px)
+    }
+  
+
+}
+
+
+@media screen and (min-width: 320px) {
+    /* .contant-div {
+        height: 30%;
+        max-width: 170px;
+        margin-left: 30px;
+    } */
+
+    .apple-logo {
+        height: 30px;
+        width: 60px;
+    }
+
+    .vdo-button {
+        max-width: 80px;
+        border-radius: 5px;
+    }
+
+    .features-img {
+        max-width: 170px;
+
+    }
+
+    .page5-1 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-2 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-3 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-button {
+        display: inline-block;
+        padding: 10px 25px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .page5-button:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px);
+    }
+
+    .click-btn {
+        background-color: skyblue;
+        color: white;
+        display: inline-block;
+        padding: 10px 25px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .click-btn:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px)
+    }
+
+}
+@media screen and (min-width: 375px){
+
+input{
+    max-width: 100px;
+}}
+@media screen and (min-width: 425px) {
+    /* .phone-img{
+        height: 250px;
+        width: 100px;
+    } */
+
+    .page5-1 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-2 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-3 {
+        max-width: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 80%;
+
+    }
+
+    .page5-button {
+        display: inline-block;
+        padding: 10px 25px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .page5-button:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px);
+    }
+
+    .subscribe-button {
+        background-color: skyblue;
+        color: white;
+        display: inline-block;
+        padding: 10px 25px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+        color: #000;
+    }
+
+    .subscribe-button:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(2px)
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    /* .contant-div {
+        height: 30%;
+        max-width: 300px;
+        margin-left: 30px;
+    } */
+    .features-img {
+        max-width: 1000px;
+
+    } 
+} 
